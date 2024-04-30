@@ -1,0 +1,330 @@
+
+/*index*/
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-size: 100PX;
+    font-style: normal;
+    color: #DAC0A3;
+
+    
+  }
+
+.container1 {
+  background-image: linear-gradient(#102C57, #FEFAF6 );
+  
+  height: 100vh;
+  }
+
+.nc-logo{
+  width: 300px;
+  }
+
+.header{
+  display: flex;
+
+}
+
+.carousel-item{
+  display: flex;
+  height: 300px;
+  }
+ 
+  .city{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /*Nav*/
+  .navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    
+    color: #EADBC8;
+  }
+  
+  .nav-links a {
+    color: #EADBC8;
+  }
+
+  .menu {
+    display:  inline-flex;
+    gap: 1em;
+    font-size: 18px;
+    align-items: center;    
+  }
+  
+  .menu li:hover {
+    background-color: #102C57;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  .services {
+    position: relative; 
+    color: #EADBC8;
+  }
+  
+  .dropdown {
+    background-color: #102C57;
+    color: #102C57;
+    padding: 1em 0;
+    position: absolute; 
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+    background-color: #102C57;
+  }
+  
+  .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+  }
+  
+  .dropdown li:hover {
+    background-color: #102C57;
+  }
+  
+  .services:hover .dropdown {
+    display: block;
+  }
+  
+  
+/*cards*/
+
+   
+.pricing-container{
+display: grid;
+grid-template-columns:1fr 1fr;
+justify-content: center;
+align-items: flex-start;
+height: 100vh;
+gap: 2rem;
+}
+
+  
+.pricing-plan {
+  margin: 10px; 
+}
+
+
+.pricing-plan {
+    flex: 1;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 20px;
+    background-image: linear-gradient(#DAC0A3 , #EADBC8 );
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    color: #102C57;
+  }
+
+.plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+.plan-price {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #102C57;
+  }
+  
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.plan-button {
+    padding: 10px;
+    background-color: #102C57;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+
+ @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+  @media (max-width: 1250px) {
+    .pricing-container {
+      grid-template-columns: 1fr; 
+      grid-template-rows: auto auto; 
+    }
+  
+   }
+
+  
+/*about*/
+
+.history{
+  font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-size: 50PX;
+    font-style: normal;
+    color: #DAC0A3;
+    display: block;
+    justify-content: center;
+    
+      text-align: center; 
+        margin-bottom: 40px; 
+}
+
+.history1{
+  font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-size: 20PX;
+    font-style: normal;
+    color: #102C57;
+    display: flex;
+    justify-content: block;
+    align-items: center;
+}
+.ol-list{
+  background-color: #102C57;
+  display: flex;
+  
+}
+
+.list1{
+  font-family: "Shadows Into Light", cursive;
+  color: #EADBC8;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map{
+ 
+  margin-left: 10%;
+  width: 80%;
+}
+.map-color{
+  background-color: #102C57;
+}
+
+.table{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+.table td,
+.table th {
+  border: 1px solid black ;
+}
+
+.table .color1 {
+  background-color: #102C57;
+  color:#DAC0A3; 
+}
+
+.table .color2 {
+  background-color: #DAC0A3;
+  color: #102C57; 
+}
+  
+
+
+/*Cities*/
+
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(#102C57, #FEFAF6 );
+
+}
+#city1{
+  background-color: #102C57;
+}
+
+.city-main{
+  padding-top: 30px;
+  background-color: #DAC0A3;
+  height: 100vh;
+  display: block;
+  
+}
+
+.city-p{
+  background-color: #102C57;
+  color: #DAC0A3;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  font-size: 18PX;
+  
+  
+}
+
+.city-main-head{
+  font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-size: 50PX;
+    font-style: normal;
+    color: #102C57;
+    display: flex;
+    justify-content: center;
+}
+.city-pic1{
+display: grid;
+grid-template-columns: 6fr 6fr;
+height: 400px;
+
+}
+
+/*Contact*/
+
+section {
+  display: flex;
+  justify-content: center; /* Horizontally center the form */
+  align-items: center; /* Vertically center the form */
+  height: 100vh; /* Adjust this value based on your layout */
+}
+
+section > div {
+  width: 300px; /* Adjust width as needed */
+}
+
+input {
+  margin:0 auto;
+  display:block;
+  border-radius:5px;
+  min-height:25px;
+}
+
+  #ref{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-size: 20PX;
+    font-style: normal;
+    color: #DAC0A3;
+  }
