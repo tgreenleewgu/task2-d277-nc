@@ -9,11 +9,24 @@
 
     
   }
+  .facts{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-size: 25PX;
+    font-style: normal;
+    color: #DAC0A3;
+    display: flex;
+  }
 
 .container1 {
   background-image: linear-gradient(#102C57, #FEFAF6 );
   
   height: 100vh;
+  }
+  #header{
+    background-color: #102C57;
+    ;
+
   }
 
 .nc-logo{
@@ -180,6 +193,9 @@ gap: 2rem;
     }
   
    }
+  .footer{
+    position: fixed;
+  }
 
   
 /*about*/
@@ -321,10 +337,43 @@ input {
   min-height:25px;
 }
 
+.contact-info{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 800;
+  font-size: 30PX;
+  font-style: normal;
+  color: #DAC0A3;
+}
+  
+
+  /*Refrence page*/
+
   #ref{
     font-family: "Shadows Into Light", cursive;
     font-weight: 800;
-    font-size: 20PX;
+    font-size: 12PX;
     font-style: normal;
     color: #DAC0A3;
   }
+
+  .float-right {
+    float: right;
+    margin-left: 10px; 
+}
+
+.float-left {
+  float: left;
+ 
+}.random-aside{
+float:right;
+margin-top: 100px;
+width: 25%;
+}
+
+#about{
+  font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-size: 12PX;
+    font-style: normal;
+    color: #DAC0A3;
+}
